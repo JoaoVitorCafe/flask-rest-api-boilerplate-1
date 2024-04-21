@@ -6,12 +6,9 @@ from flask_sqlalchemy import SQLAlchemy
 from flask_migrate import Migrate
 from flask_jwt_extended import JWTManager
 
-from sqlalchemy import text
-
 import logging
 from datetime import datetime
 import os
-
 
 db = SQLAlchemy()
 migrate = Migrate()
